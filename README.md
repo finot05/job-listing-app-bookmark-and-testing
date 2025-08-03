@@ -69,7 +69,9 @@ Base URL: https://akil-backend.onrender.com/
 Endpoint	            Method	  Description
 <hr>
 /bookmarks	           GET	    Get all bookmarks for a user
+<hr>
 /bookmarks/:eventID	   POST	    Add bookmark (Empty body)
+<hr>
 /bookmarks/:eventID	   DELETE	   Remove bookmark
 
 ⚠️ Note: When registering a new user, ensure the role is "user" (lowercase).
